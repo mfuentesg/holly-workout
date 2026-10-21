@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* WorkoutTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* WorkoutTimerApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* IntervalTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* IntervalTimer.swift */; };
+		A10000000000000000000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* Assets.xcassets */; };
+		B10000000000000000000001 /* HollyWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* HollyWatchApp.swift */; };
+		B10000000000000000000002 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000002 /* WatchContentView.swift */; };
+		B10000000000000000000003 /* WatchIntervalTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* WatchIntervalTimer.swift */; };
+		B10000000000000000000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000004 /* Assets.xcassets */; };
+		B10000000000000000000005 /* HollyWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B20000000000000000000007 /* HollyWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D10000000000000000000001 /* Connectivity.swift in Sources (iOS) */ = {isa = PBXBuildFile; fileRef = D20000000000000000000001 /* Connectivity.swift */; };
+		D10000000000000000000002 /* Connectivity.swift in Sources (watch) */ = {isa = PBXBuildFile; fileRef = D20000000000000000000001 /* Connectivity.swift */; };
+		C10000000000000000000001 /* PulseView.swift in Sources (iOS) */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* PulseView.swift */; };
+		C10000000000000000000002 /* PulseView.swift in Sources (watch) */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* PulseView.swift */; };
+		C10000000000000000000003 /* WorkoutActivityAttributes.swift in Sources (iOS) */ = {isa = PBXBuildFile; fileRef = C20000000000000000000002 /* WorkoutActivityAttributes.swift */; };
+		C10000000000000000000004 /* WorkoutActivityAttributes.swift in Sources (widget) */ = {isa = PBXBuildFile; fileRef = C20000000000000000000002 /* WorkoutActivityAttributes.swift */; };
+		C10000000000000000000005 /* Cues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000003 /* Cues.swift */; };
+		C10000000000000000000006 /* HollyWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000004 /* HollyWidgets.swift */; };
+		C10000000000000000000007 /* HollyWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C20000000000000000000006 /* HollyWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* WorkoutTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* IntervalTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalTimer.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000005 /* Holly Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Holly Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20000000000000000000001 /* HollyWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollyWatchApp.swift; sourceTree = "<group>"; };
+		B20000000000000000000002 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		B20000000000000000000003 /* WatchIntervalTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchIntervalTimer.swift; sourceTree = "<group>"; };
+		B20000000000000000000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20000000000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20000000000000000000007 /* HollyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HollyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20000000000000000000001 /* PulseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
+		C20000000000000000000002 /* WorkoutActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutActivityAttributes.swift; sourceTree = "<group>"; };
+		D20000000000000000000001 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		C20000000000000000000003 /* Cues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cues.swift; sourceTree = "<group>"; };
+		C20000000000000000000004 /* HollyWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollyWidgets.swift; sourceTree = "<group>"; };
+		C20000000000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20000000000000000000006 /* HollyWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HollyWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXContainerItemProxy section */
+		B90000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50000000000000000000001;
+			remoteInfo = WorkoutTimerWatch;
+		};
+		C90000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C50000000000000000000001;
+			remoteInfo = HollyWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B40000000000000000000004 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B10000000000000000000005 /* HollyWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40000000000000000000004 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C10000000000000000000007 /* HollyWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B90000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50000000000000000000001 /* WorkoutTimerWatch */;
+			targetProxy = B90000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		C90000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C50000000000000000000001 /* HollyWidgets */;
+			targetProxy = C90000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000002 /* WorkoutTimer */,
+				B30000000000000000000001 /* WorkoutTimerWatch */,
+				C30000000000000000000001 /* Shared */,
+				C30000000000000000000002 /* HollyWidgets */,
+				A30000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A30000000000000000000002 /* WorkoutTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* WorkoutTimerApp.swift */,
+				A20000000000000000000002 /* ContentView.swift */,
+				A20000000000000000000003 /* IntervalTimer.swift */,
+				A20000000000000000000004 /* Assets.xcassets */,
+				C20000000000000000000003 /* Cues.swift */,
+			);
+			path = WorkoutTimer;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000005 /* Holly Workout.app */,
+				B20000000000000000000007 /* HollyWatch.app */,
+				C20000000000000000000006 /* HollyWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B30000000000000000000001 /* WorkoutTimerWatch */ = {
+			isa = PBXGroup;
+			children = (
+				B20000000000000000000001 /* HollyWatchApp.swift */,
+				B20000000000000000000002 /* WatchContentView.swift */,
+				B20000000000000000000003 /* WatchIntervalTimer.swift */,
+				B20000000000000000000004 /* Assets.xcassets */,
+				B20000000000000000000005 /* Info.plist */,
+			);
+			path = WorkoutTimerWatch;
+			sourceTree = "<group>";
+		};
+		C30000000000000000000001 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C20000000000000000000001 /* PulseView.swift */,
+				C20000000000000000000002 /* WorkoutActivityAttributes.swift */,
+				D20000000000000000000001 /* Connectivity.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C30000000000000000000002 /* HollyWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				C20000000000000000000004 /* HollyWidgets.swift */,
+				C20000000000000000000005 /* Info.plist */,
+			);
+			path = HollyWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* WorkoutTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000002 /* Build configuration list for PBXNativeTarget "WorkoutTimer" */;
+			buildPhases = (
+				A40000000000000000000002 /* Sources */,
+				A40000000000000000000001 /* Frameworks */,
+				A40000000000000000000003 /* Resources */,
+				B40000000000000000000004 /* Embed Watch Content */,
+				C40000000000000000000004 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90000000000000000000002 /* PBXTargetDependency */,
+				C90000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = WorkoutTimer;
+			productName = WorkoutTimer;
+			productReference = A20000000000000000000005 /* Holly Workout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50000000000000000000001 /* WorkoutTimerWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70000000000000000000001 /* Build configuration list for PBXNativeTarget "WorkoutTimerWatch" */;
+			buildPhases = (
+				B40000000000000000000002 /* Sources */,
+				B40000000000000000000001 /* Frameworks */,
+				B40000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkoutTimerWatch;
+			productName = WorkoutTimerWatch;
+			productReference = B20000000000000000000007 /* HollyWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C50000000000000000000001 /* HollyWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70000000000000000000001 /* Build configuration list for PBXNativeTarget "HollyWidgets" */;
+			buildPhases = (
+				C40000000000000000000001 /* Sources */,
+				C40000000000000000000002 /* Frameworks */,
+				C40000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HollyWidgets;
+			productName = HollyWidgets;
+			productReference = C20000000000000000000006 /* HollyWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "WorkoutTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A30000000000000000000001;
+			productRefGroup = A30000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* WorkoutTimer */,
+				B50000000000000000000001 /* WorkoutTimerWatch */,
+				C50000000000000000000001 /* HollyWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* WorkoutTimerApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* IntervalTimer.swift in Sources */,
+				C10000000000000000000001 /* PulseView.swift in Sources (iOS) */,
+				C10000000000000000000003 /* WorkoutActivityAttributes.swift in Sources (iOS) */,
+				C10000000000000000000005 /* Cues.swift in Sources */,
+				D10000000000000000000001 /* Connectivity.swift in Sources (iOS) */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* HollyWatchApp.swift in Sources */,
+				B10000000000000000000002 /* WatchContentView.swift in Sources */,
+				B10000000000000000000003 /* WatchIntervalTimer.swift in Sources */,
+				C10000000000000000000002 /* PulseView.swift in Sources (watch) */,
+				D10000000000000000000002 /* Connectivity.swift in Sources (watch) */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10000000000000000000006 /* HollyWidgets.swift in Sources */,
+				C10000000000000000000004 /* WorkoutActivityAttributes.swift in Sources (widget) */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27322XSMN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Holly Workout";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIBackgroundModes = audio;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfuentesg.hollyworkout;
+				PRODUCT_NAME = "Holly Workout";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A80000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27322XSMN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Holly Workout";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIBackgroundModes = audio;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfuentesg.hollyworkout;
+				PRODUCT_NAME = "Holly Workout";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27322XSMN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkoutTimerWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Holly Workout";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mfuentesg.hollyworkout;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfuentesg.hollyworkout.watchkitapp;
+				PRODUCT_NAME = HollyWatch;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		B80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27322XSMN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkoutTimerWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Holly Workout";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mfuentesg.hollyworkout;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfuentesg.hollyworkout.watchkitapp;
+				PRODUCT_NAME = HollyWatch;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		C80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27322XSMN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HollyWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				INFOPLIST_KEY_CFBundleDisplayName = "Holly Workout";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfuentesg.hollyworkout.widgets;
+				PRODUCT_NAME = HollyWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27322XSMN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HollyWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				INFOPLIST_KEY_CFBundleDisplayName = "Holly Workout";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfuentesg.hollyworkout.widgets;
+				PRODUCT_NAME = HollyWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXProject "WorkoutTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001 /* Debug */,
+				A80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "WorkoutTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000003 /* Debug */,
+				A80000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70000000000000000000001 /* Build configuration list for PBXNativeTarget "WorkoutTimerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80000000000000000000001 /* Debug */,
+				B80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70000000000000000000001 /* Build configuration list for PBXNativeTarget "HollyWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80000000000000000000001 /* Debug */,
+				C80000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}
