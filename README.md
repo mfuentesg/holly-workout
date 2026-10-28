@@ -89,4 +89,7 @@ docs/ARCHITECTURE.md   how the timer, sync and background behaviour work
 - Sessions are not saved to Health or Fitness (HealthKit was removed on purpose).
 - The two devices only sync when their apps can reach each other; a closed app catches up the next time it wakes or opens.
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for details.
+## Documentation
+
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): timer model, background behaviour, cues, Live Activity and sync
+- [CHANGELOG.md](CHANGELOG.md): release notes
