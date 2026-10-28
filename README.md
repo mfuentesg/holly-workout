@@ -93,3 +93,7 @@ docs/ARCHITECTURE.md   how the timer, sync and background behaviour work
 
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): timer model, background behaviour, cues, Live Activity and sync
 - [CHANGELOG.md](CHANGELOG.md): release notes
+
+## License
+
+[MIT](LICENSE)
